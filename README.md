@@ -1,14 +1,14 @@
 # Steam Review Radar
 
 ## Introduction
-Dataset: [100 Million+ Steam Reviews (Kaggle)](https://www.kaggle.com/datasets/kieranpoc/steam-reviews/data)
-Size: 113,883,717 reviews (42.49GB)
-Names:
-- Andrew Wang
-- Cody Jiang
-- Dylan Zhou
-
 In this project we take a slice of the dataset and analyze the Steam game reviews to predict review helpfulness and identify reviewer archetypes. The analysis includes spam detection, helpfulness prediction using machine learning, and unsupervised clustering to discover reviewer personas.
+- Dataset: [100 Million+ Steam Reviews (Kaggle)](https://www.kaggle.com/datasets/kieranpoc/steam-reviews/data)
+- Size: 113,883,717 reviews (42.49GB)
+- Names:
+    - Andrew Wang
+    - Cody Jiang
+    - Dylan Zhou
+
 
 ### Project Structure
 ```
