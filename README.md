@@ -49,7 +49,7 @@ Downsamples and filters the original dataset to create manageable subsets.
 - Convert to Parquet: converts CSV to Parquet format for efficient storage
 
 
-### Data Visualization (`visualization.ipynb`)
+### Data Visualization (`02_visualization.ipynb`)
 Visualize parts of dataset to get an understanding of its characteristics.
 - Weighted vote score distribution
 - User playtime histogram (log scale)
@@ -100,7 +100,7 @@ Personas:
 | 3 | 34,449 (2%) | Small library (65 games), rarely writes reviews (5 reviews), EXTREME playtime (231K min = 3,855 hours), mixed purchase behavior, very positive (90% thumbs up), moderately high helpfulness (3.0 votes avg) | Core Players |
 | 4 | 199,100 (12%) | Large library (127 games), most active reviewers (15 reviews), deep playtime (10K min), mixed purchase behavior, critical/negative (only 5% thumbs up!), HIGHEST helpfulness (6.97 votes avg) | Critical Veterans |
 
-### Spam Detection (`spam_detection.ipynb`)
+### Spam Detection (`04_spam_detection.ipynb`)
 Identifies near-duplicate reviews and style anomalies using MinHash LSH and Isolation Forest.
 - Text Cleaning and Shingle (n-grams) Creation:
     - Lowercase and remove special characters
